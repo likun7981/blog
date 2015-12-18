@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>@绑定</title>
+</head>
+<body ng-app="MyApp">
+	<div ng-controller="MyController">
+		<h1>controller</h1>
+		<div><input type="text" ng-model="ctrlVar"></div>
+		<h1>directive</h1>
+		<hello myvar="{{ctrlVar}}"></hello>
+	</div>
+	<script src="http://cdn.bootcss.com/angular.js/1.4.8/angular.js"></script>
+	<script src="./directiveAt.js"></script>
+</body>
+</html>
