@@ -2,26 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>@绑定</title>
+	<title>&绑定</title>
 	<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body ng-app="MyApp">
 	<div class="col-md-3 panel panel-primary">
 		<div class="panel-heading">
-			<h1 class="panel-title">@绑定</h1>
+			<h1 class="panel-title">&绑定</h1>
 		</div>
 		<div class="panel-body" ng-controller="MyController">
-			<div class="col-md-6">
-				<h3>controller</h3>
-				<input type="text" class="form-control" ng-model="ctrlVar">
-			</div>
-			<div class="col-md-6">
-				<h3>directive</h3>
-				<hello myvar="{{ctrlVar}}"></hello>
-			</div>
+			<hello myfun="sayHello(name)"></hello>
 		</div>
 	</div>
 	<script src="http://cdn.bootcss.com/angular.js/1.4.8/angular.js"></script>
-	<script src="./directiveAt.js"></script>
+	<script src="./directiveAnd.js"></script>
 </body>
 </html>
