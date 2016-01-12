@@ -3,8 +3,9 @@
 "verbose":true,//显示规则名称
 "excludeFiles": ["node_modules", "path/to/lib"]//对文件或者目录禁用风格检查
 
+
 //规则配置
-"additionalRules":["rules/**.json"]
+"disallowSpacesInsideParentheses":true,//不允许空格在双括号
 "requireParenthesesAroundIIFE": true,　// 自执行函数必须用括号包围
 "requireDollarBeforejQueryAssignment":true,//JQuery对象必须带$符号
 
@@ -21,7 +22,8 @@
 "disallowSpaceBeforeBinaryOperators":[","],//在指定的后置运算符前面不能有空格
 "disallowSpaceAfterObjectKeys": true,//对象的key后面不能有空格
 
-
+"disallowSpacesInFunctionDeclaration": { "beforeOpeningRoundBrace": true },//函数式声明的函数在小括号和名字之间不能有空格
+"disallowSpacesInNamedFunctionExpression": { "beforeOpeningRoundBrace": true },//变量声明的函数在小括号和名字之间不能有空格
 "disallowSpacesInsideArrayBrackets": true,//数组的中括号两边不能有空格
 "disallowTrailingComma": true,//最后不能留逗号，在数组或者对象最后
 "disallowTrailingWhitespace": true,//不允许留多余空格，每一行的后面
@@ -42,11 +44,12 @@
 "requireSpaceBetweenArguments": true, //两个参数之间必须带空格
 "requireSpacesInConditionalExpression" : true ,//三元选择符之间带空格
 
-
+"requireSpacesInAnonymousFunctionExpression":{"beforeOpeningCurlyBrace": true},//花括号留空格
+"requireSpacesInFunctionDeclaration": { "beforeOpeningCurlyBrace": true },
+"requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
 
 "requireSpacesInForStatement": true,//for语句的分号之间的语句必须带空格
 "requireSpacesInsideObjectBrackets":{"allExcept": ["}"]},
-"requireSpacesInsideParentheses": "all",//括号开关前后要带空格
 
 "requireLineFeedAtFileEnd": true,//最后一行用换行结束
 "requirePaddingNewLinesAfterUseStrict":true,//use strict 后面用留一个空行

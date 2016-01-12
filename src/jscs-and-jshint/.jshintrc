@@ -10,5 +10,5 @@
     "eqeqeq": false,
     "strict": true,
     "browser":true,
-    "eqnull" : true
+    "eqnull" : true,
 }
