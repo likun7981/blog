@@ -1,0 +1,14 @@
+{
+	"nonew": true, 
+    "notypeof":true, 
+    "loopfunc":true, 
+    "undef": true,
+    "unused": true,
+    "lastsemic": true, 
+    "boss": true,
+    "node": true,
+    "eqeqeq": false,
+    "strict": true,
+    "browser":true,
+    "eqnull" : true
+}

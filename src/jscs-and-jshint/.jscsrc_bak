@@ -1,0 +1,54 @@
+{
+//Jquery
+"requireParenthesesAroundIIFE": true,　// 自执行函数必须用括号包围
+"requireDollarBeforejQueryAssignment":true,//JQuery对象必须带$符号
+
+"disallowEmptyBlocks":true,//不能存在空的块
+"disallowKeywords": ["with"],//不能使用with
+"disallowMixedSpacesAndTabs": "smart",//允许空格和tab混用,但是必须是连续的
+"disallowMultipleLineStrings": true,//不允许使用截断的多行字符串
+"disallowMultipleVarDecl":true,//不允许多个变量一行声明除了在for循环中
+"disallowQuotedKeysInObjects":"allButReserved",//对象的key不带引号,除了关键字和保留字
+
+"disallowSpaceAfterPrefixUnaryOperators": true,//在前置运算符的后面不能有空格
+"disallowSpaceBeforePostfixUnaryOperators": true,
+
+"disallowSpaceBeforeBinaryOperators":[","],//在指定的后置运算符前面不能有空格
+"disallowSpaceAfterObjectKeys": true,//对象的key后面不能有空格
+
+"disallowSpacesInFunctionDeclaration": { "beforeOpeningRoundBrace": true },//函数式声明的函数在小括号和名字之间不能有空格
+"disallowSpacesInNamedFunctionExpression": { "beforeOpeningRoundBrace": true },//变量声明的函数在小括号和名字之间不能有空格
+"disallowSpacesInsideArrayBrackets": true,//数组的中括号两边不能有空格
+"disallowTrailingComma": true,//最后不能留逗号，在数组或者对象最后
+"disallowTrailingWhitespace": true,//不允许留多余空格，每一行的后面
+"disallowKeywordsOnNewLine": ["else"],//else不能单独换行
+
+"requireSemicolons":true,//注意带分号
+"requireCapitalizedConstructors": {"allExcept": ["somethingNative"]},//构造函数首字母大写
+
+"requireSpaceAfterBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
+"requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
+"requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+"requireSpaceAfterLineComment": true, //行注释后面需要一个空格
+
+"requireCamelCaseOrUpperCaseIdentifiers": true,　//带下划线静态变量必须是全大写,除了对象的变量
+"requireCommaBeforeLineBreak":true,//最后是一个逗号,在对象属性换行处
+
+"requireDotNotation": true,//对象的属性必须是用点的形式访问,除了关键字和保留字的属性
+"requireSpaceBetweenArguments": true, //两个参数之间必须带空格
+"requireSpacesInConditionalExpression" : true ,//三元选择符之间带空格
+
+"requireSpacesInAnonymousFunctionExpression":{"beforeOpeningCurlyBrace": true},//花括号留空格
+"requireSpacesInFunctionDeclaration": { "beforeOpeningCurlyBrace": true },
+"requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
+
+"requireSpacesInForStatement": true,//for语句的分号之间的语句必须带空格
+"requireSpacesInsideObjectBrackets":{"allExcept": ["}"]},
+"requireSpacesInsideParentheses": "all",//括号开关前后要带空格
+
+"requireLineFeedAtFileEnd": true,//最后一行用换行结束
+"requirePaddingNewLinesAfterUseStrict":true,//use strict 后面用留一个空行
+"requirePaddingNewLinesBeforeExport": true,//export 前面留一个空行
+"validateLineBreaks": "LF",
+"validateQuoteMarks":{"mark":"'","escape": true} //统一使用单引号,在避免出错的情况下可以使用双引号
+}

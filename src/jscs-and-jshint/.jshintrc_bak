@@ -1,0 +1,16 @@
+{
+	"nonew": true, //构造函数必须大写开头
+    "notypeof":true, //无效的typeof
+    "loopfunc":true, ////定义函数的内部循环可能的错误.(闭包的错误)
+    "undef": true,//禁止使用未显示声明的变量
+    "unused": true,
+    "lastsemic": true, //必须带分号
+    "boss": true,
+    "node": true, //node环境定义全局可用的变量
+    "eqeqeq": false,
+    "strict": true,
+    "browser":true,//browser环境定义全局可用的变量
+    "eqnull" : true,//在使用双等于时判断 null ,会发出警告
+
+    "newcap": false, //禁止使用callee和caller，未来会被弃用
+}

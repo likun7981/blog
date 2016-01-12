@@ -1,0 +1,53 @@
+{
+"requireParenthesesAroundIIFE": true,　
+"requireDollarBeforejQueryAssignment":true,
+
+"disallowEmptyBlocks":true,
+"disallowKeywords": ["with"],
+"disallowMixedSpacesAndTabs": "smart",
+"disallowMultipleLineStrings": true,
+"disallowMultipleVarDecl":true,
+"disallowQuotedKeysInObjects":"allButReserved",
+
+"disallowSpaceAfterPrefixUnaryOperators": true,
+"disallowSpaceBeforePostfixUnaryOperators": true,
+
+"disallowSpaceBeforeBinaryOperators":[","],
+"disallowSpaceAfterObjectKeys": true,
+
+"disallowSpacesInFunctionDeclaration": { "beforeOpeningRoundBrace": true },
+"disallowSpacesInNamedFunctionExpression": { "beforeOpeningRoundBrace": true },
+"disallowSpacesInsideArrayBrackets": true,
+"disallowTrailingComma": true,
+"disallowTrailingWhitespace": true,
+"disallowKeywordsOnNewLine": ["else"],
+
+"requireSemicolons":true,
+"requireCapitalizedConstructors": {"allExcept": ["somethingNative"]},
+
+"requireSpaceAfterBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
+"requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
+"requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+"requireSpaceAfterLineComment": true, 
+
+"requireCamelCaseOrUpperCaseIdentifiers": true,　
+"requireCommaBeforeLineBreak":true,
+
+"requireDotNotation": true,
+"requireSpaceBetweenArguments": true, 
+"requireSpacesInConditionalExpression" : true ,
+
+"requireSpacesInAnonymousFunctionExpression":{"beforeOpeningCurlyBrace": true},
+"requireSpacesInFunctionDeclaration": { "beforeOpeningCurlyBrace": true },
+"requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
+
+"requireSpacesInForStatement": true,
+"requireSpacesInsideObjectBrackets":{"allExcept": ["}"]},
+"requireSpacesInsideParentheses": "all",
+
+"requireLineFeedAtFileEnd": true,
+"requirePaddingNewLinesAfterUseStrict":true, 
+"requirePaddingNewLinesBeforeExport": true, 
+"validateLineBreaks": "LF",
+"validateQuoteMarks":{"mark":"'","escape": true} 
+}
