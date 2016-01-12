@@ -11,6 +11,4 @@
     "strict": true,
     "browser":true,//browser环境定义全局可用的变量
     "eqnull" : true,//在使用双等于时判断 null ,会发出警告
-
-    "newcap": false, //禁止使用callee和caller，未来会被弃用
 }
