@@ -1,6 +1,9 @@
 # blog
 My Personal Blog
 # 目录
+## CSS技巧系列
+
+#### - [通过css设置等宽高图片box](https://github.com/likun7981/blog/issues/4)
 
 ## Javascript基础系列
 
@@ -9,6 +12,7 @@ My Personal Blog
 ## Angular系列
 
 #### - [AngularJS学习笔记(一)——绑定策略](https://github.com/likun7981/blog/issues/1)
+#### - [AngularJS学习笔记(一)——transclude(嵌入)](https://github.com/likun7981/blog/issues/5)
 
 ## 工具系列
 
